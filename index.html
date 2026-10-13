@@ -690,6 +690,14 @@ nav.tabs button[aria-selected=true] { color: var(--gold); }
   // Static parts
   $("scenes").innerHTML = SCENES.map(function (n, i) { return '<button class="scene" data-scene="' + i + '">' + ICON.scene[i] + n + "</button>"; }).join("");
   $("tdur").innerHTML = DUR.map(function (d) { return '<option value="' + d + '">' + (d < 60 ? d + " minutes" : d === 60 ? "1 hour" : d === 90 ? "1 hour 30 min" : "2 hours") + "</option>"; }).join("");
+  // Android app (Capacitor): the pairing QR link opens the app; take the code from it
+  try {
+    var capApp = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.App;
+    if (capApp) capApp.addListener("appUrlOpen", function (ev) {
+      var m = String(ev.url || "").match(/[#&]k=([A-Za-z0-9_-]{22})/);
+      if (m) { saveCode(m[1]); connectRemote(); }
+    });
+  } catch (e) {}
   startPolling();
 })();
 </script>
