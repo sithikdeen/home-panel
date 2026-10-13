@@ -1,0 +1,56 @@
+{
+ "pack": "base",
+ "version": 1,
+ "files": [
+  {
+   "path": "dawn1.jpg",
+   "size": 48103,
+   "sha256": "b448476c21886e060eccd45e98dafe213dd8b8d363f32cdc65a71b6accfb21aa"
+  },
+  {
+   "path": "dawn2.jpg",
+   "size": 69590,
+   "sha256": "4bca1c910ce4ee6f737fced21e6d97d53a6a77b90ed919c8d1d38ac901982145"
+  },
+  {
+   "path": "evening1.jpg",
+   "size": 118518,
+   "sha256": "cd2e3ac9f301c299baf0bcd3045b1d7e5f22f241d468279945263b4d12742998"
+  },
+  {
+   "path": "evening2.jpg",
+   "size": 120161,
+   "sha256": "3310469045d1f99e6f9dac4f01e6b03e957655852a8e21cc63470424e9934230"
+  },
+  {
+   "path": "morning1.jpg",
+   "size": 39970,
+   "sha256": "70935387529ebed6b9e88d0ca02adaa73de9f09408adbc17940221c4379174ad"
+  },
+  {
+   "path": "morning2.jpg",
+   "size": 66052,
+   "sha256": "3e76fb3f06ca90c894f77ca1fe738647ef15454425e92463b669ec21a34abd93"
+  },
+  {
+   "path": "night1.jpg",
+   "size": 76502,
+   "sha256": "1402b853f8d05b6972b4a0ef16c2501bbd7af8b26764caef168fac22d209f976"
+  },
+  {
+   "path": "night2.jpg",
+   "size": 115378,
+   "sha256": "16cdb73b2b4f4eacd075bf52c121264e27190dd15efcfae2dfaf12399afa2ad6"
+  },
+  {
+   "path": "noon1.jpg",
+   "size": 101513,
+   "sha256": "5b61bbe6412163b38024e675eadba77e4f8ae7485619b701009455d1b9b6b848"
+  },
+  {
+   "path": "noon2.jpg",
+   "size": 113770,
+   "sha256": "6ba513db7fb601c641b49fda92e7b1502df17da3ab4cd12534ea435c2e3149a1"
+  }
+ ]
+}

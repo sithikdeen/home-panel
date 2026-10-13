@@ -1,0 +1,26 @@
+{
+ "pack": "islam",
+ "version": 1,
+ "files": [
+  {
+   "path": "adhan_fajr.mp3",
+   "size": 2610731,
+   "sha256": "15daf3850e613629243001a6b9caec5c4ad0f16d7963b0c1c83b5b849cfafd63"
+  },
+  {
+   "path": "adhan_normal.mp3",
+   "size": 2100153,
+   "sha256": "9495b45f96fd915b3113e8cc728f67dac156ece4a4d615a0304ff1650c6244e8"
+  }
+ ],
+ "name": "Islam",
+ "adhan": {
+  "fajr": "adhan_fajr.mp3",
+  "normal": "adhan_normal.mp3"
+ },
+ "prayer": {
+  "fajr_angle": 18,
+  "isha_angle": 18,
+  "asr": "hanafi"
+ }
+}
